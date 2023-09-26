@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 65rem;
+    background-color: rgb(249, 239, 240);
+    background-image: url(./fondos/corazon-1.svg), url(./fondos/corazon-2.svg);
+    background-repeat: repeat-y;
+    background-size: 7rem;
+    background-position: left top, 59rem top;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+div {
+    width: 20rem;
+    margin: 0 auto 0.5rem;
+    text-align: center;
+    padding: 1rem 15rem;
+    border: 1px solid black;
+}
+
+.poem-1 {
+    background-image: url(./fondos/manchas.png);
+    color: white;
+}
+
+.poem-2 {
+    background-image: url(./fondos/fuego.svg), url(./fondos/fuego.svg), url(./fondos/tallos.jpg);
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-position: bottom left, bottom right;
+    color: rgb(255, 196, 0);
+}
+
+.poem-3 {
+    background-image: url(./fondos/ojo.svg), url(./fondos/hexagonos.jpg);
+    background-position: center;
+    background-repeat: no-repeat, repeat;
+    color: rgb(160, 48, 0);
+}
+
+.poem-4 {
+    background-image: url(./fondos/caballo.svg), url(./fondos/estrellas.png);
+    background-repeat: repeat-x, repeat;
+    background-size: 5rem, auto;
+    background-position: bottom;
+    color: rgb(27, 58, 45);
+    padding-bottom: 3rem;
+}
