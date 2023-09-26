@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #194E47;
+    background-color: #4DB3AA;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 65%;
+}
+
+.header-title {
+    text-align: center;
+    margin: 0;
+}
+
+.nav-bar {
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-page {
+    margin: 2rem;
+}
+
+.museum {
+    background: white;
+    margin-top: 2rem;
+}
+
+.museum img {
+    margin: 1.5rem;
+    padding: 15px;
+    height: 150px;
+    width: auto;
+}
+
+.museum-content {
+    margin: 1.5rem;
+}
+
+.museum-left {
+    border: 15px solid #E64D01;
+}
+
+.museum-left img {
+    float: left;
+    border: 15px solid #E64D01;
+    background: #F3AA34;
+}
+
+.museum-right {
+    border: 15px solid #F3AA34;
+}
+
+.museum-right img {
+    float: right;
+    border: 15px solid  #F3AA34;
+    background: #E64D01;
+}
